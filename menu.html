@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú del Restaurante</title>
+</head>
+
+<body >
+  <iframe src="MENU.pdf" width="100%" style="height: 100vh; border: none;"></iframe>
+
+  <script>
+    const timestamp = new Date().getTime();
+    document.write('<iframe src="MENU.pdf?v=' + timestamp + '" width="100%" style="height: 100vh; border: none;"></iframe>');
+  </script>
+</body>
+
+</html>
