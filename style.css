@@ -1,4 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
 html {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  width: 100%;
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  row-gap: 25px;
+}
+
+.background-container {
+  background-image: url(background.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu-btn {
+  padding: 1em 2em;
+  font-size: 1.2em;
+  font-weight: 600;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+  width: 250px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#menu-btn:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.apps {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.apps__list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.apps__list-logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.apps__list-logo img {
+  width: 110px;
+}
+
+.apps__list-logo:nth-child(2) img {
+  width: 70px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 10px;
 }
