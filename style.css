@@ -29,6 +29,10 @@ html {
   align-items: center;
 }
 
+.menu{
+  margin: 0px;
+}
+
 .menu img {
   width: 100%;
   height: auto;
