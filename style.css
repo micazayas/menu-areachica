@@ -39,6 +39,19 @@ html {
   display: block;
 }
 
+@media (min-width: 768px) {
+  .menu {
+    background-color: #346b32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .menu img {
+    width: 60%;
+  }
+}
+
 #menu-btn {
   padding: 1em 2em;
   font-size: 1.2em;
